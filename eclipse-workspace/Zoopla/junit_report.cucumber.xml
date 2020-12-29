@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.697254">
+<testcase classname="Zoopla Application" name="UseCase1" time="37.697254">
+<system-out><![CDATA[Given the Zoopla application is launched for "test1"........................passed
+Then verify the home page using "Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents".passed
+When enter the "London" in searchbox and press the search button............passed
+Then validate list of properties page "Property for Sale in London - Buy Properties in London - Zoopla".passed
+When print all the price values in sorted order(descending order) on the console.passed
+And select the fifth property on the list of properties.....................passed
+Then verify the property list page with logo,agentname and telephone........passed
+When click on the agentname link to get into agents page....................passed
+Then Verify the properties listed  belong to the same mentioned "Panther International Properties" on the agents page..passed
+]]></system-out>
+</testcase>
+</testsuite>
