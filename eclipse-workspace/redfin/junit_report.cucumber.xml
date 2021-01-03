@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="123.697499">
+<testcase classname="Redfin Application" name="UseCase1" time="68.187048">
+<system-out><![CDATA[Given the redfin application is launched for "test1"........................passed
+Then verify the home page using "Real Estate, Homes for Sale, MLS Listings, Agents".passed
+When enter the "Sunnyvale" in searchbox and press the enter button..........passed
+Then validate pop up appears................................................passed
+When On the pop up select the entry "https://www.redfin.com/city/19457/CA/Sunnyvale".passed
+Then verify the city Real Estate page using "Sunnyvale Homes for Sale"......passed
+Then assert the Search box on the top left side has "Sunnyvale".............passed
+When Select the min price as "25" and max price as "3"......................passed
+Then Verify all the homes listed are from "/CA/Sunnyvale/", if no homes listed throw an errorMessage.passed
+]]></system-out>
+</testcase>
+<testcase classname="Redfin Application" name="UseCase1_2" time="55.510451">
+<system-out><![CDATA[Given the redfin application is launched for "test2"........................passed
+Then verify the home page using "Real Estate, Homes for Sale, MLS Listings, Agents".passed
+When enter the "Sunnyvale" in searchbox and press the enter button..........passed
+Then validate pop up appears................................................passed
+When On the pop up select the entry "https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale".passed
+Then verify the city Real Estate page using "Sunnyvale Homes for Sale"......passed
+Then assert the Search box on the top left side has "Sunnyvale".............passed
+When Select the min price as "21" and max price as "4"......................passed
+Then Verify all the homes listed are from "/TX/Dallas", if no homes listed throw an errorMessage.passed
+]]></system-out>
+</testcase>
+</testsuite>
