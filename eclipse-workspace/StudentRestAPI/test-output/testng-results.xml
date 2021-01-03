@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3212" started-at="2020-12-24T23:14:13 CST" finished-at="2020-12-24T23:14:16 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3212" started-at="2020-12-24T23:14:13 CST" finished-at="2020-12-24T23:14:16 CST">
+      <class name="studentAPI">
+        <test-method status="PASS" signature="studentDataValidate()[pri:1, instance:studentAPI@26aa12dd]" name="studentDataValidate" duration-ms="1214" started-at="2020-12-24T23:14:13 CST" finished-at="2020-12-24T23:14:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentDataValidate -->
+        <test-method status="PASS" signature="StudentPostAPI()[pri:2, instance:studentAPI@26aa12dd]" name="StudentPostAPI" duration-ms="1965" started-at="2020-12-24T23:14:14 CST" finished-at="2020-12-24T23:14:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentPostAPI -->
+      </class> <!-- studentAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
