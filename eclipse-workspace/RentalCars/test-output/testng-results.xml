@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4006" started-at="2020-12-29T02:08:35 CST" finished-at="2020-12-29T02:08:39 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4006" started-at="2020-12-29T02:08:35 CST" finished-at="2020-12-29T02:08:39 CST">
+      <class name="RentalCarsAPI">
+        <test-method status="PASS" signature="verifyTeslaBlue()[pri:1, instance:RentalCarsAPI@2173f6d9]" name="verifyTeslaBlue" duration-ms="2709" started-at="2020-12-29T02:08:35 CST" finished-at="2020-12-29T02:08:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeslaBlue -->
+        <test-method status="PASS" signature="getCarswithLowPrice()[pri:2, instance:RentalCarsAPI@2173f6d9]" name="getCarswithLowPrice" duration-ms="272" started-at="2020-12-29T02:08:38 CST" finished-at="2020-12-29T02:08:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarswithLowPrice -->
+        <test-method status="PASS" signature="getCarswithDiscountLowPrice()[pri:3, instance:RentalCarsAPI@2173f6d9]" name="getCarswithDiscountLowPrice" duration-ms="384" started-at="2020-12-29T02:08:38 CST" finished-at="2020-12-29T02:08:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarswithDiscountLowPrice -->
+        <test-method status="PASS" signature="highestProfitCar()[pri:4, instance:RentalCarsAPI@2173f6d9]" name="highestProfitCar" duration-ms="584" started-at="2020-12-29T02:08:39 CST" finished-at="2020-12-29T02:08:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highestProfitCar -->
+      </class> <!-- RentalCarsAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
